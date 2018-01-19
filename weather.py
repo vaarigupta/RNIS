@@ -38,7 +38,7 @@ data = req.read() 			#reads the data in the req body
 
 
 parsedData = json.loads(data)
-
+json.dumps()
 
 # #uncomment the below line to see data output and data type of parsed JSON data
 # #print data
